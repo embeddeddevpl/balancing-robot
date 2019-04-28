@@ -24,6 +24,8 @@ INCLUDES  := \
 	./third-party/stm32 \
 	./peripherals \
 	./external-devices \
+	./third-party/freertos/include \
+	./third-party/freertos/portable/GCC/ARM_CM3 \
 
 INCLUDES_FLAG := $(addprefix -I, $(INCLUDES))
 
